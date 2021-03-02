@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{./}}
 
 \title{Assignment 4}
 \author{Parvez Alam : AI21RESCH01005 }
@@ -22,15 +24,18 @@
 
 \section{Prob. Sec 3, 7 :}
 \textbf{Let X represents the difference between the number of the heads and the number of the tails obtained when a coin is tossed 6 times. What are possible value of X ?} \\ \\
-\textbf{Solution:} Possible values of X are \\
-X=6, for 6 H and 0 T \\
-X=4, for 5 H and 1 T \\
-X=2, for 4 H and 2 T \\
-X=0, for 3 H and 3 T \\
-X=-2, for 2 H and 4 T \\
-X=-4, for 1 H and 5 T \\
-X=-6, for 0 H and 6 T \\ \\
-Hence X \in \{6,4,2,0,-2,-4,-6\}
+\textbf{Solution:} Let \(X_1\) is a binomial random variable \\
+X_1 \(\in\) \{0,1,2,3,4,5,6\} \\ \\
+Possible values of X are \\ \\
+X=6, for X_1=6  \\ \\
+X=4, for X_1=5 \\ \\
+X=2, for X_1=4  \\ \\
+X=0, for X_1=3 \\ \\
+X=-2, for X_1=2 \\ \\
+X=-4, for X_1=1 \\ \\
+X=-6, for X_1=0 \\ \\
+ X \in \{6,4,2,0,-2,-4,-6\} \\
+ \includegraphics[scale=0.7]{Plot_4.png}
 
 \end{multicols}
 \end{document}
