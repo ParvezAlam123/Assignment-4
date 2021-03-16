@@ -52,7 +52,10 @@ plt.title('PMF simulation')
 plt.legend()
 plt.show()
 
-# pdf plot
+# cdf plot
+Prob.reverse()
+print(Prob)
+X.reverse()
 cdf=[]
 sum=0
 for i in range(7):
@@ -71,5 +74,7 @@ plt.ylabel('CDF')
 plt.title('CDF Simulation')
 plt.legend()
 plt.show()
+
+
 
     
